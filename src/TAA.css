@@ -1,0 +1,15 @@
+.container-2 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container{
+    padding-bottom: 100px;
+}
+
+.text-content{
+    align-content:first baseline;
+    justify-self: start;
+}

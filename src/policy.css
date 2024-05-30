@@ -1,0 +1,54 @@
+:root {
+    --color-primary: #;
+    --color-success: #;
+    --color-warning: ;
+    --color-bg: #ADBC9F;
+    --color-bg1: #FBFADA;
+    --color-bg2: #436850;
+    --color-l1: #12372A;
+    --color-hover: #FCE883;
+    --containter: ;
+    --paragraph-font: 'Lato', sans-serif;
+    --font-color: #333;
+}
+
+.w-container.policy {
+    text-align: left;
+}
+
+.flex-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section {
+    padding-top: 10px;
+}
+.section ul li {
+    text-decoration: dashed;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.div-block p {
+    color: whitesmoke;
+}
+
+.policy-head {
+    color: whitesmoke;
+}
+
+.heading-6{
+    color: black;
+}
+
+.section3 {
+    background-color: #ADBC9F;
+}
+
+.section3 p{
+    color: black;
+}
+.footer-container {
+    text-align: left;
+}

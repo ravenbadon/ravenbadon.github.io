@@ -1,0 +1,8 @@
+.w-container {
+    display: flex;
+}
+
+.hero-image {
+    width: 500px;
+    padding-top: 10px;
+}

@@ -1,0 +1,5 @@
+.w-layout-grid .grid-2 .hr-details{
+    grid-template-columns: auto, auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+}

@@ -1,0 +1,89 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+}
+
+:root {
+    --color-primary: #;
+    --color-success: #;
+    --color-warning: ;
+    --color-bg: #ADBC9F;
+    --color-bg1: #FBFADA;
+    --color-bg2: #436850;
+    --color-l1: #12372A;
+    --color-hover: #FCE883;
+    --containter: ;
+    --paragraph-font: 'Lato', sans-serif;
+    --font-color: #333;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+}
+
+:root {
+  --color-primary: #;
+  --color-success: #;
+  --color-warning: ;
+  --color-bg: #ADBC9F;
+  --color-bg1: #FBFADA;
+  --color-bg2: #436850;
+  --color-l1: #12372A;
+  --color-hover: #FCE883;
+  --containter: ;
+  --paragraph-font: 'Lato', sans-serif;
+  --font-color: #333;
+}
+
+.button-div {
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  padding-bottom: 100px;
+  justify-content: center;
+  display: flex;
+}
+
+.download-btn{
+  outline: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  padding: 16px 25px;
+  border-radius: 6px;
+  align-items: center;
+  white-space: nowrap;
+  background: var(--color-bg2);
+  transition: all 0.2s ease;
+}
+.download-btn:hover{
+  background: var(--color-l1);
+}
+.download-btn.timer{
+  color: #000;
+  background: none;
+  transition: none;
+  font-size: 1.6rem;
+  pointer-events: none;
+}
+.download-btn.timer b{
+  color: var(--color-l1);
+  padding: 0 8px;
+}
+.download-btn .icon{
+  font-size: 2rem;
+}
+.download-btn .text{
+  font-size: 1.5rem;
+  padding-left: 10px;
+}

@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+}
+
+:root {
+    --color-primary: #;
+    --color-success: #;
+    --color-warning: ;
+    --color-bg: #ADBC9F;
+    --color-bg1: #FBFADA;
+    --color-bg2: #436850;
+    --color-l1: #12372A;
+    --color-hover: #FCE883;
+    --containter: ;
+    --paragraph-font: 'Lato', sans-serif;
+    --font-color: #333;
+}
+
+.btn {
+    height: 40px;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 12px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 36px;
+    color: #333;
+}
+
+input {
+    height: 56px;
+    border-radius: 12px;
+    border: 1px solid var(--color-l1);
+    outline: none;
+    width: 456px;
+    padding: 0 8px 0 16px;
+    background-color: wheat;
+    color: black;
+}
+
+.first-name:focus, .last-name:focus, .email:focus, .subject:focus, .message:focus {
+    border: 3px solid var(--color-hover);
+    background-color: white;
+}
+
+.input-name {
+    display: flex;
+    gap: 24px;
+}
+
+.input-name input {
+    width: 215px;
+}
+
+.btn-submit {
+    background-color: var(--color-bg2);
+    width: 480px;
+}
+
+
+::placeholder, .handle, .or-text {
+    color: var(--font-color);
+}
+
+.btn-submit:hover {
+    background-color: var(--color-l1);
+}

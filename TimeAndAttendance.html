@@ -1,0 +1,262 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TimeAndAttendance</title>
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+    <link rel="stylesheet" type="text/css" href="src/TAA.css">
+    <!-- Google Fonts CDN-->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <nav>
+        <div class="nav-wrapper">
+            <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" data-easing="ease" data-easing2="ease" role="banner" class="navbar w-nav">
+                <div class="w-container nav-content">
+                    <!--NAVBAR-->
+                    <nav role="navigation" class="nav_menu w-nav-menu">
+                        <ul class="w-nav-menu">
+                            <a href="index.html">
+                                <img src="images\A.png" loading="lazy" alt="AutoPayrollLogo" class="AutoPayrollLogo">
+                            </a>
+                            <li class="nav-links">
+                                <a href="payroll.html" class="w-nav-link">Payroll</a>
+                            </li>
+                            <li class="nav-links">
+                                <a href="TimeAndAttendance.html" class="w-nav-link w-nav-link--active">Time & Attendance</a>
+                                <div class="nav-underline"></div>
+                            </li>
+                            <li class="nav-links">
+                                <a href="HRIS.html" class="w-nav-link">HRIS</a>
+                                <div class="nav-underline"></div>
+                            </li>
+                            <li class="nav-links">
+                                <a href="about.html" class="w-nav-link">About Us</a>
+                                <div class="nav-underline"></div>
+                            </li>
+                            <li class="nav-links">
+                                <a href="FAQ.html" class="w-nav-link">FAQ</a>
+                                <div class="nav-underline"></div>
+                            </li>
+                        </ul>
+                        <img src="images\reshot-icon-menu-D6U5PY3TJK.svg" alt="menu bar" class="menu-bar" onclick="toggleMenu()">
+                        <div class="sub-menu-wrap" id="subMenu">
+                            <div class="sub-menu">
+                                <div class="menu-dropdown">
+                                    <a href="about.html" class="sub-menu-link">About Us</a>
+                                    <a href="whyUs.html" class="sub-menu-link">Why Us</a>
+                                    <a href="contact.html" class="sub-menu-link">Contact Us</a>
+                                    <a href="FAQ.html" class="sub-menu-link">FAQ</a>
+                                    <a href="tac.html" class="sub-menu-link">Terms and Conditions</a>
+                                    <a href="policy.html" class="sub-menu-link">Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Navigation Trigger-->
+    <div data-w-id="[insertID]" class="navigation-trigger"></div>
+    <div id="luxy" class="luxy-1">
+        <div data-delay="5000" data-animation="slide" class="slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="false" role="region" aria-label="carousel">
+            <div class="w-slider-mask" id="w-slider-mask-0">
+                <div class="slide w-slide" aria-label="1 of 1" role="group" style="transform: translateX(0px); opacity: 1;">
+                    <div class="first-content-home">
+                        <header id="content-home" class="content-time content-home1">
+                            <div class="flex-container w-container">
+                                <div class="div-block">
+                                    <h1 class="heading">
+                                        Building the Ultimate Time Tracking Solution
+                                    </h1>
+                                    <p class="paragraph-top">
+                                        Effectively monitor employee hours with Payroll's Time and Attendance Management System (TAMS), a robust cloud-based tool offering reliable features like employee self-service, leave management, reporting, and more.
+                                    </p>
+                                    <a href="download.html" class="button-2 w-button">AUTOMATE NOW</a>
+                                </div>
+                                <div class="content-image-mask padding">
+                                    <img src="images\Save-time.svg" alt="man on top of hourglass" class="content-image padding">
+                                </div>
+                            </div>
+                        </header>
+                    </div>
+                </div>
+            </div>
+            <div aria-live="off" aria-atomic="true" class="w-slider-aria-label" data-wf-ignore></div>
+        </div>
+        <!-- Section 1-->
+        <div class="section">
+            <div class="w-container">
+                <h1 class="heading-3">
+                    Efficient Timekeeping Solutions That Deliver
+                </h1>
+                <p class="paragraph-5">
+                    Unlock effortless time and attendance management with our automated, customizable tools, seamlessly syncing with PDY payroll and HR systems for streamlined operations.
+                </p>
+            </div>
+            <div class="w-container w-layout-grid grid-1">
+                <!-- Automated Time Tracking -->
+                <div class="content-block cp">
+                    <img src="images\undraw_time_management_re_tk5w.svg" alt="Time Tracking" class="image-3">
+                    <h1 class="heading-4 image-3">Automated Time Tracking</h1>
+                    <p class="paragraph-1">
+                        Simplify tracking of employee log-in and log-out entries for both you and your team.
+                    </p>
+                </div>
+                <!-- SLM -->
+                <div class="content-block cp">
+                    <img src="images\undraw_file_manager_re_ms29.svg" alt="Leave Management" class="image-3">
+                    <h1 class="heading-4 image-3">Streamlined Leave Management</h1>
+                    <p class="paragraph-1">
+                        Efficiently process leave applications and approvals for employees and managers alike.
+                    </p>
+                </div>
+                <!-- EOT -->
+                <div class="content-block cp">
+                    <img src="images\undraw_activity_tracker_re_2lvv.svg" alt="Track" class="image-3">
+                    <h1 class="heading-4 image-3">Efficient Overtime Tracking</h1>
+                    <p class="paragraph-1">
+                        Ensure accurate and proper processing of overtime with streamlined management.
+                    </p>
+                </div>
+                <!-- ESS -->
+                <div class="w-container content-block cp">
+                    <img src="images\undraw_my_personal_files_re_3q0p.svg" alt="Self-Service" class="image-3">
+                    <h1 class="heading-4 image-3">Employee Self-Service</h1>
+                    <p class="paragraph-1">
+                        Enhance convenience by enabling employees to manage their company profiles with ease.
+                    </p>
+                </div>
+                <!-- SEARCH -->
+                <div class="content-block cp">
+                    <img src="images\undraw_people_search_re_5rre.svg" alt="Payroll feature" class="image-3">
+                    <h1 class="heading-4 image-3">Search</h1>
+                    <p class="paragraph-1">
+                        Access a powerful internal search engine to streamline your employee records database.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--Section 2-->
+        <div class="section2">
+            <div class="w-container">
+                <!--Heading-->
+                <h1 class="heading-3">
+                    Easy and Simple
+                </h1>
+                <!--Lower Grid-->
+                <div class="container-2">
+                    <!-- Individual Item with image and text -->
+                    <div class="image-container">
+                        <img src="images\undraw_in_no_time_-6-igu.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="text-content">
+                            <h3>Clock In and Out Anywhere</h3>
+                            <p>Easily track employee time records, whether on-site or remote, with our reliable clocking system. Includes overtime and night differential recording.</p>
+                            <h3>System Integration</h3>
+                            <p>Update employee records from various input systems, integrating seamlessly with Payroll.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Second container-2 for additional sections -->
+                <div class="container-2">
+                    <div class="image-container">
+                        <img src="images\undraw_freelancer_re_irh4.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="text-content">
+                            <h3>Employee Self-Service</h3>
+                            <p>Offer employees convenient access to manage time records, leaves, payslips, and more, all in one place.</p>
+                            <h3>Stress-free Leave Management</h3>
+                            <p>Streamline leave processing with our flexible system for filing, approval, and accrual. Set up automated accumulation for earned VL time by the hour.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Third container-2 if needed for more sections -->
+                <div class="container-2">
+                    <div class="image-container">
+                        <img src="images\undraw_os_upgrade_re_r0qa.svg" alt="">
+                    </div>
+                    <div class="item">
+                        <div class="text-content">
+                            <h3>Clock In and Out Anywhere</h3>
+                            <p>Easily track employee time records, whether on-site or remote, with our reliable clocking system. Includes overtime and night differential recording.</p>
+                            <h3>System Integration</h3>
+                            <p>Update employee records from various input systems, integrating seamlessly with Payroll.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Section 2 ending-->
+    </div>
+    <!-- Try Now Page -->
+    <div class="section3 Demo-section">
+        <div class="container-3 w-container">
+            <h1 class="heading-6">Try Now</h1>
+            <p class="paragraph-5 w-container">
+                Ready to streamline your payroll process and elevate your HR management?
+                Download AutoPayroll now and experience the convenience of automated payroll processing firsthand.
+            </p>
+            <a href="download.html" class="button-2 btn-large w-button">DOWNLOAD NOW</a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="w-container footer-container">
+            <div class="footer-section footer1">
+                <ol class="breadcrumb-footer">
+                    <li><a href="index.html">Home>></a></li>
+                    <li><a href="payroll.html">Payroll>></a></li>
+                    <li>Time & Attendance</li>
+                </ol>   
+                <a href="index.html">
+                    <img src="images\A.png" alt="AutoPayroll Logo" class="AutoPayrollLogo">
+                </a>
+                <p>
+                    AutoPayroll simplifies payroll processing, time tracking, and HR management,
+                    all through a single desktop platform. Learn more about how we can help streamline your business processes.
+                </p>
+                <a href="about.html" class="link1">Learn More</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="sitemap-heading"><strong class="bold-text">SITE MAP</strong></h4>
+                <ul class="sitemap">
+                    <li><a href="payroll.html">PAYROLL</a></li>
+                    <li><a href="TimeAndAttendance.html">TIME & ATTENDANCE</a></li>
+                    <li><a href="HRIS.html">HRIS</a></li>
+                    <li><a href="about.html">WHY US</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="download.html">DOWNLOAD</a></li>
+                    <li><a href="tac.html">TERMS AND CONDITIONS</a></li>
+                    <li><a href="policy.html">POLICY</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4><strong class="bold-text">Contact Information</strong></h4>
+                <!-- Content for contact information -->
+                <ul class="contact">
+                    <li>+6399-6651-321</li>
+                    <li><a href="https://www.google.com/maps/place/Guiuan,+Eastern+Samar/@10.8784495,125.6291567,11z/data=!3m1!4b1!4m6!3m5!1s0x33060f0e0b7ec729:0xb225b2dfde1ae82c!8m2!3d11.0319248!4d125.7261353!16zL20vMDZxdm5o?entry=ttu">Real Building, This St., True City, Existing Country</a></li>
+                    <li><a href="contact.html">group1real@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="w-container footer-copyright">
+            <small>© 2024 AUTOPAYROLL. All Rights Reserved. | <a href="policy.html">Privacy Policy</a></small>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
